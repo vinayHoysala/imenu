@@ -1,0 +1,1 @@
+export let Vinay = ()=> <h1>My name is Vinay</h1>;
