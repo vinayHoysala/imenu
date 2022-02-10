@@ -4,6 +4,8 @@ import Ganesh from "./Ganesh";
 import { Vinay } from './Vinay';
 import  Sourav  from './Sourav'; 
 import Madhu from './Madhu';
+import Shekar from './Shekar';
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
       <Vinay />
       <Sourav />
       <Madhu />
+      <Shekar />
     </div>
   );
 }
