@@ -5,6 +5,7 @@ import { Vinay } from './Vinay';
 import  Sourav  from './Sourav'; 
 import Madhu from './Madhu';
 import Shekar from './Shekar';
+import Pawan from './Pawan';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Sourav />
       <Madhu />
       <Shekar />
+      <Pawan />
     </div>
   );
 }
