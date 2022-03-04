@@ -6,16 +6,18 @@ import  Sourav  from './Sourav';
 import Madhu from './Madhu';
 import Shekar from './Shekar';
 import Pawan from './Pawan';
+import Sagar from './Sagar'
 
 function App() {
   return (
     <div className="App">
-      <Ganesh/>
+      {/* <Ganesh/>
       <Vinay />
       <Sourav />
       <Madhu />
       <Shekar />
-      <Pawan />
+      <Pawan /> */}
+      <Sagar/>
     </div>
   );
 }
