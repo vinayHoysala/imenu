@@ -1,12 +1,22 @@
 import React from 'react'
 
+import React from "react";
+import axios from "axios";
+
 function Sagar() {
+  const [users, setUser] = React.useState([]);
+  React.useEffect(() => {
+    axios.get("https://jsonplaceholder.typicode.com/users").then((result) => {
+      // console.log(result);
+      setUser(result.data);
+    });
+  }, []);
+
   return (
-    <div>
-        <h1>This is Sagar Chauhan</h1>
-        <h1>It is time to Show</h1>
+    <div className="App">
+      {users.map(user => (<h4 key={user.id}>{user.name}</h4>))}
     </div>
-  )
+  );
 }
 
 export default Sagar;
